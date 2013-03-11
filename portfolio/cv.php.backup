@@ -1,0 +1,161 @@
+<div style="font-family:Times New Roman, serif;">
+<h1 class="sectionHead">Curriculum Vitae</h1>
+<P STYLE="margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Key
+Skills</B></FONT></FONT></P>
+<UL>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-weight: medium">Strong
+	programming ability</SPAN>, with a solid aptitude for innovatively
+	solving technical challenges under various settings.</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><SPAN STYLE="font-weight: medium">Fast
+	learner with a knack for instinctively understanding code</SPAN>,
+	able to pick up new programming platforms and start getting
+	productive in a short time. </FONT></FONT>
+	</P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Good
+	sense for designing and following coding standards.</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Experience
+	leading software development teams.</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Experience
+	conducting user requirement studies, and designing interfaces to
+	meet them.</FONT></FONT></P>
+</UL>
+<p>
+	<strong>Developed with</strong>: Java, C#, PHP, SQL, HTML/CSS, C/C++, Javascript (and probably a smattering more I cannot remember off-hand).
+</p><p>	
+	<strong>Developed on</strong>: Joomla!, Drupal, Facebook, WPF, XUL. UNIX and Windows.
+</p>
+<HR>
+<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>
+Technical Experience Highlights</B></FONT></FONT></P>
+<P><BR>
+</P>
+
+<P><A NAME="hgpx"></A><A HREF="http://www.comp.nus.edu.sg/%7Evwo/"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>CVWO</B></FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>
+- a volunteer student initiative developing IT systems for welfare
+organisations</B></FONT></FONT></P>
+<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Key
+member for two years. Often responsible for devising solutions to
+technical challenges during the founding stages, alongside
+contributing a significant amount of code to two projects. </FONT></FONT>
+</P>
+<UL>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Core
+	developer in founding team</FONT></FONT></P>
+</UL>
+<UL>
+	<UL>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Helped
+		design and build the core modules and basic framework for the
+		systems on a web-based platform</FONT></FONT></P>
+		<LI><P><A NAME="dn591"></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Developed
+		about half the modules for the </FONT></FONT><A HREF="http://www.comp.nus.edu.sg/%7Evwo/geha.html"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Geha
+		project</FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+		</FONT></FONT>
+		</P>
+	</UL>
+</UL>
+<UL>
+	<LI VALUE=1><P><A NAME="kedc"></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Project
+	lead for </FONT></FONT><A HREF="http://www.comp.nus.edu.sg/%7Evwo/pertapis.html"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Pertapis
+	project</FONT></FONT></A></P>
+	<UL>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Spearheaded
+		and orchestrated detailed requirement studies on the client
+		organisation </FONT></FONT>
+		</P>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Served
+		as main system architect for the project </FONT></FONT>
+		</P>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Managed
+		a team of developers - including laying down processes,
+		conventions, and doing code-reviews </FONT></FONT>
+		</P>
+		<LI><P><A NAME="j0gx"></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Did
+		presentations about the project to external sponsors like McKinsey
+		and the </FONT></FONT><A HREF="http://www.youtube.com/watch?v=HaF33O4x0h4"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Press</FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">.</FONT></FONT></P>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Nominated
+		for a youth IT award for my contributions.</FONT></FONT></P>
+	</UL>
+	<LI><P STYLE="margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Served
+	as president for year 2008-2009</FONT></FONT></P>
+</UL>
+
+<P STYLE="margin-right: 0.06in; margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Thunderbird
+development</B><BR>Introduced to Mozilla development early this year.
+Presently contributing patches to the Thunderbird code base in
+comm-central while rapidly learning up the platform and getting
+acquainted with fellow developers in #maildev.</FONT></FONT></P>
+<UL>
+	<LI><P STYLE="font-weight: medium"><FONT SIZE=2 STYLE="font-size: 11pt">Two
+	patches completed, reviewed and checked in thus far.</FONT></P>
+	<UL>
+		<LI><P><A HREF="https://bugzilla.mozilla.org/show_bug.cgi?id=471368"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+		trivial front-end patch</FONT></FONT></A></P>
+		<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">and
+		an </FONT></FONT><A HREF="https://bugzilla.mozilla.org/show_bug.cgi?id=449560"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">accessibility
+		related patch</FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">.
+		(Which was later </FONT></FONT><A HREF="https://bugzilla.mozilla.org/show_bug.cgi?id=479576"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">ported
+		to Seamonkey</FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">)</FONT></FONT></P>
+	</UL>
+	<LI><P STYLE="margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Presently
+	working on <A HREF="https://bugzilla.mozilla.org/show_bug.cgi?id=227305">bug
+	227305</A></FONT></FONT></P>
+</UL>
+
+<HR SIZE=1>
+<P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Education</B></FONT></FONT></P>
+<P><BR>
+</P>
+<P STYLE="font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Currently
+a third year computer science student in the National University of
+Singapore</FONT></FONT></P>
+<P STYLE="font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">University
+Cumulative Average Point to date : 4.59/5</FONT></FONT></P>
+<P STYLE="font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A-Levels
+: 4 A's for Physics, Chemistry, Biology and Mathematics, plus an A1
+for AO Level General Paper</FONT></FONT></P>
+<P STYLE="font-weight: medium"><BR>
+</P>
+<P STYLE="font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Achievements
+in brief:</FONT></FONT></P>
+<UL>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Top
+	student in introductory programming course (CS1101S) </FONT></FONT>
+	</P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Dean's
+	Lister in academic year 2006-2007 </FONT></FONT>
+	</P>
+	<LI><P><A NAME="twj2"></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Served
+	as Undergraduate Tutor for CS1101S and </FONT></FONT><A HREF="http://www.comp.nus.edu.sg/%7Ecs3216/"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">CS3216</FONT></FONT></A><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">
+	(Software development on Evolving Platforms)</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Developed
+	on Facebook for CS3216 as a student </FONT></FONT>
+	</P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Prepared
+	a WPF-based assignment in collaboration with Microsoft for CS3216 as
+	a tutor</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Did
+	a research project focused on end-user computer tools</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Lead
+	several (curricular) project teams in school</FONT></FONT></P>
+</UL>
+<HR SIZE=1>
+<P STYLE="margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Miscellaneous</B></FONT></FONT></P>
+<UL>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">School
+	Debater in High School </FONT></FONT>
+	</P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Enjoy
+	simple designing work, for club publicity materials and my own
+	website/blog</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Recreational
+	wushu practitioner, once served as vice-chairperson of NUSWUSHU</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Physics
+	enthusiast in high school. Obtained Singapore Physics Olympiad
+	Honorable Mention in Junior College </FONT></FONT>
+	</P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+	fan of Japanese Anime</FONT></FONT></P>
+	<LI><P><FONT FACE="Times New Roman, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Proud
+	Linux user and an advocate of FOSS!</FONT></FONT></P>
+</UL>
