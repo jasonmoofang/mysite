@@ -160,26 +160,12 @@ function get_offset() {
 
 <body>
 <div class="header">
-<div class="topbox">
-<div class="sideblock"><div class="twitter_div"><h3>My Latest Dents</h3>
-<ul class="twitter_update_list" id="twitter_update_list_widget_reliabletwitter-3">
-<li class="reliabletwitter_title_loading"><img src="http://yuenhoe.co.cc/blog/wp-content/plugins/reliable-twitter/wait.gif" alt="" /></li>
-</ul>
+<div class="topbox" style="overflow:hidden">
+<span>Follow me on <a href="http://twitter.com/JasonMoofang">twitter</a> or <a href="http://identi.ca/JasonMoofang">identi.ca</a>.</span>
+<div class="sideblock" style="margin-left:20px"><div class="twitter_div"><!-- <h3>My Latest Dents</h3> -->
+<a class="twitter-timeline" width="600" height="200" data-chrome="nofooter noheader noscrollbar transparent" href="https://twitter.com/JasonMoofang" data-widget-id="334926667925557248">Tweets by @JasonMoofang</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="http://yuenhoe.co.cc/blog/wp-content/plugins/reliable-twitter/reliable-twitter.js"></script>
-<script type="text/javascript">
-reliable_twitter_temp_loader = [];
-reliable_twitter_temp_loader[0] = "JasonMoofang";
-reliable_twitter_temp_loader[1] = "2";
-reliable_twitter_temp_loader[2] = "";
-reliable_twitter_temp_loader[3] = "_blank";
-reliable_twitter_temp_loader[4] = "widget_reliabletwitter-3";
-reliable_twitter_loader[current_reliable_twitter_load] = [];
-reliable_twitter_loader[current_reliable_twitter_load] = reliable_twitter_temp_loader;
-current_reliable_twitter_load++;
-</script>
-<p align="right">Follow me on <a href="http://twitter.com/JasonMoofang">twitter</a> or <a href="http://identi.ca/JasonMoofang">identi.ca</a>.</p>
 </div>
 </div>
 </div>
