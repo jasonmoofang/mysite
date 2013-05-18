@@ -37,6 +37,11 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <?php if (t_get_option('t_cufon_replace') == 'yes') { ?>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/cufon.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/font.js"></script>
+<!--[if gte IE 9]>
+        <script type="text/javascript">
+                Cufon.set('engine', 'canvas');
+        </script>
+<![endif]-->
 <script type="text/javascript">Cufon.replace('.post .title h2 a', {hover:true});</script>
 <?php } ?>
 
