@@ -19,7 +19,7 @@
                 <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>        			
                 <span class="category"><?php the_tags('', ', ', ''); ?></span>	
 				</p>
-        
+        <span id="comments"></span>
         <p><small><?php _e('You can follow any responses to this entry through the','nattywp'); ?> <?php post_comments_feed_link('RSS 2.0'); ?>
 						<?php if ( comments_open() && pings_open() ) {
 							// Both Comments and Pings are open ?>
