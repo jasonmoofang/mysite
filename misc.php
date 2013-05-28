@@ -17,8 +17,8 @@ function show_misc(arg) {
   <td width="30%" style="border-right:1px solid #000000">
 <br />
     <a href="http://www.facebook.com/people/Lim-Yuen-Hoe/630308427" onmouseover="show_misc('fb')">Social Media</a><br /><br />
-    <a href="http://moofang.posterous.com/" onmouseover="show_misc('photoblog')">Pictures and Photos</a><br /><br />
-    <a href="http://sea.battle.net/sc2/en/profile/284394/1/moofang/" onmouseover="show_misc('sc2')">Starcraft 2</a><br /><br />
+    <a href="https://plus.google.com/photos/113796012946915949059/albums" onmouseover="show_misc('photoblog')">Pictures and Photos</a><br /><br />
+    <a href="http://sea.battle.net/sc2/en/profile/284394/1/moofaNg/" onmouseover="show_misc('sc2')">Starcraft 2</a><br /><br />
     <a href="http://www.youtube.com/user/moofang" onmouseover="show_misc('youtube')">Youtube Channel</a><br /><br />
   </td><td width="70%">
     <div id="gen" class="misc">
@@ -35,14 +35,13 @@ function show_misc(arg) {
       </ul>
     </div>
     <div id="photoblog" class="misc" style="display:none">
-      <p>There's my <a href="http://moofang.posterous.com">Experimentalish Photoblog</a>, where I post photos and pictures in a seemingly entirely arbitrary manner.</p>
-      <p>All other random photos I take go into my <a href="https://plus.google.com/photos/113796012946915949059/albums">Google+/Picasa Web Albums</a>.</p>
+      <p>Random photos I take generally go into my <a href="https://plus.google.com/photos/113796012946915949059/albums">Google+/Picasa Web Albums</a>.</p>
       <p>If you're looking for photos of <em>me</em>, you're likely better served hitting my <a href="http://www.facebook.com/people/Lim-Yuen-Hoe/630308427">Facebook Profile</a>.</p>
     </div>
     <div id="sc2" class="misc" style="display:none">
       <p>The game for which I sacrificed all games and on which I probably spend too much time.</p>
       <ul>
-		<li><a href="http://sea.battle.net/sc2/en/profile/284394/1/moofang/">My Battle.net SC2 Profile</a></li>
+		<li><a href="http://sea.battle.net/sc2/en/profile/284394/1/moofaNg/">My Battle.net SC2 Profile</a></li>
 		<li><a href="http://www.fusionslugs.hawkeyewc.net/index.php">Fusion Slugs</a> - My awesome SC2 clan</li>
       </ul>
     </div>

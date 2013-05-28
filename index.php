@@ -196,7 +196,7 @@ function get_offset() {
     <p>My current blog in which I write about all sorts of random stuff, 
     though admittedly with some emphasis on geekier topics.</p>
     <p>Quick jump to:
-    <a href="blog/tag/rants" >Rants</a>
+    <!-- <a href="blog/tag/rants" >Rants</a> -->
     <a href="blog/tag/tech" >Tech</a>
     <a href="blog/tag/dev" >Dev</a>
     <a href="blog/tag/otaku" >Otaku</a>

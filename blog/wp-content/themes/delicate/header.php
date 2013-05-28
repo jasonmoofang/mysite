@@ -93,9 +93,9 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <li class="page_item"><strong>
  <a href="http://yuenhoe.com/blog/tag/otaku"><span>Otaku</span></a></strong>
 </li>
-<li class="page_item"><strong>
+<!-- <li class="page_item"><strong>
  <a href="http://yuenhoe.com/blog/tag/rants"><span>Rants</span></a></strong>
-</li>
+</li> -->
 <li class="current_page_item"><strong>
  <a href="http://yuenhoe.com/blog/the-about-stuff/"><span>About</span></a></strong>
 </li>
