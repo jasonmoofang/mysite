@@ -3,10 +3,133 @@
 <?php 
 $t_show_post = t_get_option ("t_show_post");	
 ?>    
-
+<style>
+.recotable a {
+  text-decoration: none;
+}
+.reco_excerpt {
+  margin-left:30px;
+  margin-top:7px;
+  color: #555;
+}
+.reco_title {
+  margin-top: 3px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.reco_next {
+  text-align: right;
+  font-weight: bold;
+}
+</style>
 <div id="main">		
 	<div class="columns">        
      <div class="narrowcolumn">
+     <div style="height:150px; padding:10px; border-left:2px solid rgb(199, 193, 190)">
+     <h2 class="blocktitle"><em>Recommended Reading</em></h2>
+     <br />
+     <script>
+     var curslide = 1;
+     var maxslide = 4;
+     var intervaler = false;
+     function swapslide() {
+        jQuery('#slide' + curslide).fadeOut(500, function() {
+            if (curslide == maxslide) {
+                curslide = 1;
+            } else {
+                curslide ++;
+            }
+            jQuery('#slide' + curslide).fadeIn(500);
+        });
+     }
+     function reco_gonext() {
+        if (intervaler !== false) {
+            clearInterval(intervaler);
+            intervaler = false;
+            swapslide();
+            intervaler = setInterval(function() { swapslide(); }, 5000);
+        } else {
+            swapslide();
+        }
+     }
+     function initslider() {
+        intervaler = setInterval(function() { swapslide(); }, 5000);
+        jQuery('.recoslide').hover(function() {
+            if (intervaler !== false) {
+                clearInterval(intervaler);
+                intervaler = false;
+            }
+        }, function() {
+            if (intervaler === false) {
+                intervaler = setInterval(function() { swapslide(); }, 5000);
+            }
+        });
+     }
+     jQuery(document).ready(initslider);
+     </script>
+     <div id="slide1" class="recoslide">
+      <table class="recotable">
+      <tr>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/clannad2.jpg" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></td>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/reaching.jpg" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></td>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/asukasama.png" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
+      </tr>
+      </table>
+     </div>
+     <div id="slide2" class="recoslide" style="display:none">
+      <table class="recotable">
+      <tr>
+        <td width="0px" valign="top">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/clannad2.jpg" class="framed" width="160px" height="90px" />
+        </td>
+        <td>
+          <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></p>
+          <p class="reco_excerpt"><em> " ... The ability to help isn’t a privilege that you guard carefully and execute selectively, it is a means of connecting with humanity and building your life that should be used as often as possible ... "</em></p>
+          <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
+        </td>
+      </tr>
+      </table>
+     </div>
+     <div id="slide3" class="recoslide" style="display:none">
+      <table class="recotable">
+      <tr>
+        <td width="0px" valign="top">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/reaching.jpg" class="framed" width="160px" height="90px" />
+        </td>
+        <td>
+          <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></p>
+          <p class="reco_excerpt"><em> " ... if you needed a reason to go on living at all, it is that death is so much worse, so much more meaningless, and so much more terrifying ... "</em></p>
+          <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
+        </td>
+      </tr>
+      </table>
+     </div>
+     <div id="slide4" class="recoslide" style="display:none">
+      <table class="recotable">
+      <tr>
+        <td width="0px" valign="top">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/asukasama.png" class="framed" width="160px" height="90px" />
+        </td>
+        <td>
+          <p class="reco_title"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></p>
+          <p class="reco_excerpt"><em> " ... [human] connection inevitably involves exposing oneself to harm and hurt. But if you back out due to it you’re going to lose to rejection, and nothing will change ... "</em></p>
+          <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
+        </td>
+      </tr>
+      </table>
+     </div>
+     <br />
+     </div>
+     <br />
      <?php if (have_posts()) : ?>
      <?php while (have_posts()) : the_post(); ?>							
 			<div <?php post_class();?>>
