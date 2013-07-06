@@ -25,21 +25,25 @@ $t_show_post = t_get_option ("t_show_post");
 <div id="main">		
 	<div class="columns">        
      <div class="narrowcolumn">
-     <div style="height:150px; padding:10px; border-left:2px solid rgb(199, 193, 190)">
+     <div style="height:150px; overflow:scroll; padding:10px; border-left:2px solid rgb(199, 193, 190)">
      <h2 class="blocktitle"><em>Recommended Reading</em></h2>
      <br />
+     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
      <script>
      var curslide = 1;
      var maxslide = 4;
      var intervaler = false;
      function swapslide() {
-        jQuery('#slide' + curslide).fadeOut(500, function() {
+        $('#slide' + curslide).fadeTo(500, 0, function() {
+            for (var i = curslide; i <= maxslide; i++) {
+                $('#slide' + i).hide();
+            }
             if (curslide == maxslide) {
                 curslide = 1;
             } else {
                 curslide ++;
             }
-            jQuery('#slide' + curslide).fadeIn(500);
+            $('#slide' + curslide).fadeTo(500, 1);
         });
      }
      function reco_gonext() {
@@ -54,7 +58,7 @@ $t_show_post = t_get_option ("t_show_post");
      }
      function initslider() {
         intervaler = setInterval(function() { swapslide(); }, 5000);
-        jQuery('.recoslide').hover(function() {
+        $('.recoslide').hover(function() {
             if (intervaler !== false) {
                 clearInterval(intervaler);
                 intervaler = false;
@@ -65,7 +69,7 @@ $t_show_post = t_get_option ("t_show_post");
             }
         });
      }
-     jQuery(document).ready(initslider);
+     $(document).ready(initslider);
      </script>
      <div id="slide1" class="recoslide">
       <table class="recotable">
