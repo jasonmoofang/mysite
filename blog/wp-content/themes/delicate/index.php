@@ -1,7 +1,7 @@
 <?php get_header();?>      
 
 <?php 
-$t_show_post = t_get_option ("t_show_post");	
+$t_show_post = t_get_option ("t_show_post");  
 ?>    
 <style>
 .recotable a {
@@ -22,18 +22,18 @@ $t_show_post = t_get_option ("t_show_post");
   font-weight: bold;
 }
 </style>
-<div id="main">		
-	<div class="columns">        
-     <div class="narrowcolumn">
-     <div style="height:150px; overflow:scroll; padding:10px; border-left:2px solid rgb(199, 193, 190)">
-     <h2 class="blocktitle"><em>Recommended Reading</em></h2>
-     <br />
-     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-     <script>
-     var curslide = 1;
-     var maxslide = 4;
-     var intervaler = false;
-     function swapslide() {
+<div id="main">    
+  <div class="columns">        
+    <div class="narrowcolumn">
+    <div style="height:150px; overflow:hidden; padding:10px; border-left:2px solid rgb(199, 193, 190)">
+    <h2 class="blocktitle"><em>Recommended Reading</em></h2>
+    <br />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+    var curslide = 1;
+    var maxslide = 4;
+    var intervaler = false;
+    function swapslide() {
         $('#slide' + curslide).fadeTo(500, 0, function() {
             for (var i = curslide; i <= maxslide; i++) {
                 $('#slide' + i).hide();
@@ -45,8 +45,8 @@ $t_show_post = t_get_option ("t_show_post");
             }
             $('#slide' + curslide).fadeTo(500, 1);
         });
-     }
-     function reco_gonext() {
+    }
+    function reco_gonext() {
         if (intervaler !== false) {
             clearInterval(intervaler);
             intervaler = false;
@@ -55,8 +55,8 @@ $t_show_post = t_get_option ("t_show_post");
         } else {
             swapslide();
         }
-     }
-     function initslider() {
+    }
+    function initslider() {
         intervaler = setInterval(function() { swapslide(); }, 5000);
         $('.recoslide').hover(function() {
             if (intervaler !== false) {
@@ -68,10 +68,10 @@ $t_show_post = t_get_option ("t_show_post");
                 intervaler = setInterval(function() { swapslide(); }, 5000);
             }
         });
-     }
-     $(document).ready(initslider);
-     </script>
-     <div id="slide1" class="recoslide">
+    }
+    $(document).ready(initslider);
+    </script>
+    <div id="slide1" class="recoslide">
       <table class="recotable">
       <tr>
         <td width="0px">
@@ -88,8 +88,8 @@ $t_show_post = t_get_option ("t_show_post");
         <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
       </tr>
       </table>
-     </div>
-     <div id="slide2" class="recoslide" style="display:none">
+    </div>
+    <div id="slide2" class="recoslide" style="display:none">
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
@@ -102,8 +102,8 @@ $t_show_post = t_get_option ("t_show_post");
         </td>
       </tr>
       </table>
-     </div>
-     <div id="slide3" class="recoslide" style="display:none">
+    </div>
+    <div id="slide3" class="recoslide" style="display:none">
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
@@ -116,8 +116,8 @@ $t_show_post = t_get_option ("t_show_post");
         </td>
       </tr>
       </table>
-     </div>
-     <div id="slide4" class="recoslide" style="display:none">
+    </div>
+    <div id="slide4" class="recoslide" style="display:none">
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
@@ -130,19 +130,19 @@ $t_show_post = t_get_option ("t_show_post");
         </td>
       </tr>
       </table>
-     </div>
-     <br />
-     </div>
-     <br />
-     <?php if (have_posts()) : ?>
-     <?php while (have_posts()) : the_post(); ?>							
-			<div <?php post_class();?>>
-            	
+    </div>
+    <br />
+    </div>
+    <br />
+    <?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>              
+      <div <?php post_class();?>>
+              
                 <div class="title">
-				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+        <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                 <small><?php the_time('F jS, Y') ?> | <?php _e('Posted by','nattywp'); ?> <span class="author"><?php natty_get_profile() ?></span> <?php _e('in','nattywp'); ?> <?php the_category(' | ');?> - (<?php comments_popup_link(__('0 Comments', 'nattywp'), __('1 Comments', 'nattywp'), __('% Comments', 'nattywp')); ?>)</small> <?php edit_post_link(__('Edit','nattywp'), ' | ', ''); ?>
                 </div>                
-				<div class="entry">
+        <div class="entry">
             <?php 
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                       the_post_thumbnail('thumbnail');} 
@@ -154,37 +154,37 @@ $t_show_post = t_get_option ("t_show_post");
                 <div id="morepage-list"><?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?></div>                       
             <?php } ?>
             <div class="clear"></div>
-       </div>              
+      </div>              
                 
-				<p class="postmetadata">	
-           <span class="category"><?php the_tags('', ', ', ''); ?></span>   
-				</p>
-			</div>			
-	<?php endwhile; ?>	
-    		
-		<div id="navigation">
-		<?php natty_pagenavi(); ?>
-		</div>    
+        <p class="postmetadata">  
+          <span class="category"><?php the_tags('', ', ', ''); ?></span>   
+        </p>
+      </div>      
+  <?php endwhile; ?>  
+        
+    <div id="navigation">
+    <?php natty_pagenavi(); ?>
+    </div>    
         
     <?php else : 
-		echo '<div class="post">';
-		if ( is_category() ) { // If this is a category archive
-			printf(__('<h2 class=\'center\'>Sorry, but there aren\'t any posts in the %s category yet.</h2>','nattywp'), single_cat_title('',false));
-		} else if ( is_date() ) { // If this is a date archive
-			_e('<h2>Sorry, but there aren\'t any posts with this date.</h2>','nattywp');
-		} else if ( is_author() ) { // If this is a category archive
-			$userdata = get_userdatabylogin(get_query_var('author_name'));
-			printf(__('<h2 class=\'center\'>Sorry, but there aren\'t any posts by %s yet.</h2>','nattywp'), $userdata->display_name);
-		} else {
+    echo '<div class="post">';
+    if ( is_category() ) { // If this is a category archive
+      printf(__('<h2 class=\'center\'>Sorry, but there aren\'t any posts in the %s category yet.</h2>','nattywp'), single_cat_title('',false));
+    } else if ( is_date() ) { // If this is a date archive
+      _e('<h2>Sorry, but there aren\'t any posts with this date.</h2>','nattywp');
+    } else if ( is_author() ) { // If this is a category archive
+      $userdata = get_userdatabylogin(get_query_var('author_name'));
+      printf(__('<h2 class=\'center\'>Sorry, but there aren\'t any posts by %s yet.</h2>','nattywp'), $userdata->display_name);
+    } else {
       _e('<h2 class=\'center\'>No posts found.</h2>','nattywp');
-		}
-		get_search_form();	
-		echo '</div>';		
-	endif; ?>
-	
- </div> <!-- END Narrowcolumn -->
-   <div id="sidebar" class="profile">
-     <?php get_sidebar();?>
-   </div>    
+    }
+    get_search_form();  
+    echo '</div>';    
+  endif; ?>
+  
+</div> <!-- END Narrowcolumn -->
+  <div id="sidebar" class="profile">
+    <?php get_sidebar();?>
+  </div>    
 <div class="clear"></div>    
 <?php get_footer(); ?> 
