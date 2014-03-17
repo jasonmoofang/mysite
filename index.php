@@ -161,7 +161,7 @@ function get_offset() {
 <body>
 <div class="header">
 <div class="topbox" style="overflow:hidden">
-<span>Follow me on <a href="http://twitter.com/JasonMoofang">twitter</a> or <a href="http://identi.ca/JasonMoofang">identi.ca</a>.</span>
+<span>Follow me on <a href="http://twitter.com/JasonMoofang">Twitter</a> or <a href="https://plus.google.com/113796012946915949059/posts">Google+</a>.</span>
 <div class="sideblock" style="margin-left:20px"><div class="twitter_div"><!-- <h3>My Latest Dents</h3> -->
 <a class="twitter-timeline" width="600" height="200" data-chrome="nofooter noheader noscrollbar transparent" href="https://twitter.com/JasonMoofang" data-widget-id="334926667925557248">Tweets by @JasonMoofang</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
