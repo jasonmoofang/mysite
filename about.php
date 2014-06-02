@@ -8,4 +8,5 @@
       <li>Free software advocate and hobbyist <a href="http://kde.org" target="_blank">KDE</a> hacker.</li>
       <li>Casual anime and tech <a href="blog/">blogger</a>.</li>
     </ul>
-    You can contact me at: <br /><img src="http://i302.photobucket.com/albums/nn91/yuenhoe/email.png" />.
+    <p>You can contact me at: <br /><img src="http://i302.photobucket.com/albums/nn91/yuenhoe/email.png" />.</p>
+<a href="http://jointhegame.kde.org"><img width="350" height="20" src="http://jointhegame.kde.org/index.php/member/widget?widget=SignatureBanner&member=1471&language=en" /></a>

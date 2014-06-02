@@ -14,6 +14,35 @@
              <?php the_content(); ?>    
              <div class="clear"></div>
         </div>              
+<style>
+.recotable a {
+  text-decoration: none;
+}
+.recoslide {
+  border-top: 1px dotted #d5d5d5;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+</style>
+    <div id="slide1" class="recoslide">
+        <h3>Read more..</h3>
+      <table class="recotable">
+      <tr>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/clannad2.jpg" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></td>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/reaching_zps4fede3c0.jpg" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></td>
+        <td width="0px">
+          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/asukasama.png" class="framed" width="80px" height="45px" />
+        </td>
+        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
+      </tr>
+      </table>
+    </div>
                 
 				<p class="postmetadata">	               
                 <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>        			
