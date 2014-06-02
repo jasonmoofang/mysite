@@ -75,15 +75,15 @@ $t_show_post = t_get_option ("t_show_post");
       <table class="recotable">
       <tr>
         <td width="0px">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/clannad2.jpg" class="framed" width="80px" height="45px" />
+          <img src="/blog_images/clannad2.jpg" class="framed" width="80px" height="45px" />
         </td>
         <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></td>
         <td width="0px">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/reaching_zps4fede3c0.jpg" class="framed" width="80px" height="45px" />
+          <img src="/blog_images/reaching.jpg" class="framed" width="80px" height="45px" />
         </td>
         <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></td>
         <td width="0px">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/asukasama.png" class="framed" width="80px" height="45px" />
+          <img src="/blog_images/asukasama.png" class="framed" width="80px" height="45px" />
         </td>
         <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
       </tr>
@@ -93,7 +93,7 @@ $t_show_post = t_get_option ("t_show_post");
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/clannad2.jpg" class="framed" width="160px" height="90px" />
+          <img src="/blog_images/clannad2.jpg" class="framed" width="160px" height="90px" />
         </td>
         <td>
           <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></p>
@@ -107,7 +107,7 @@ $t_show_post = t_get_option ("t_show_post");
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/reaching_zps4fede3c0.jpg" class="framed" width="160px" height="90px" />
+          <img src="/blog_images/reaching.jpg" class="framed" width="160px" height="90px" />
         </td>
         <td>
           <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></p>
@@ -121,7 +121,7 @@ $t_show_post = t_get_option ("t_show_post");
       <table class="recotable">
       <tr>
         <td width="0px" valign="top">
-          <img src="http://i302.photobucket.com/albums/nn91/yuenhoe/asukasama.png" class="framed" width="160px" height="90px" />
+          <img src="/blog_images/asukasama.png" class="framed" width="160px" height="90px" />
         </td>
         <td>
           <p class="reco_title"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></p>
