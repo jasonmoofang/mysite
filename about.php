@@ -4,8 +4,8 @@
       I also answer to "Jason", and to my online handles "moofang" and "Jason moofang".</p>
     <ul>
       <li>Malaysian national, ethnically Chinese, living in Singapore.</li>
-      <li>Currently software engineer at <a href="http://www.mokomomo.com/">Mokomomo Interactive</a>.</li>
-      <li>Free software advocate and hobbyist <a href="http://kde.org" target="_blank">KDE</a> hacker.</li>
+      <li>Currently software engineer / CTO at <a href="http://www.mokomomo.com/">Mokomomo Interactive</a>.</li>
+      <li><a href="http://en.wikipedia.org/wiki/Free_software" target="_blank">Free software</a> advocate and hobbyist <a href="http://kde.org" target="_blank">KDE</a> hacker.</li>
       <li>Casual anime and tech <a href="blog/">blogger</a>.</li>
     </ul>
     <p>You can contact me at: <br /><img src="http://i302.photobucket.com/albums/nn91/yuenhoe/email.png" />.</p>
