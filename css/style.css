@@ -1,0 +1,133 @@
+html, body {
+    max-width: 110%;
+    overflow-x: hidden;
+    margin: -10px;
+}
+body {
+    /*color: #787878;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+body a {
+    color: #558;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slider {
+    padding: 20px;
+    max-width: 500px;
+    /*min-height: 750px;*/
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,100,150,.1);
+    margin: 0 auto;
+    margin-top: -20px;
+    background-color: #fff;
+}
+.slidercontainer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+section {
+  text-align: center;
+}
+section.module.content {
+  padding: 50px;
+}
+section.module.content h1 {
+  color: #558;
+}
+section.module.parallax {
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: -10px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+section.module.parallax h1 {
+  padding: 20px;
+  padding-top: 300px;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/banner.jpg");
+}
+.mypic {
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.1);
+    padding: 5px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.mypic img {
+    width: 100%;
+    border-radius: 6px;
+}
+.footer {
+    background-color: #224;
+    height: 250px;
+    margin-top: -150px;
+}
+.footertext {
+    color: #fff;
+    text-align: center;
+}
+.sliderheader {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -70px;
+}
+p.quote {
+  font-style: italic;
+  color: #558;
+}
+img.snsicon {
+  width: 20px;
+  float:left;
+  margin-right: 10px;
+}
+.header-cell {
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.header-cell.main {
+  color: rgba(0, 0, 0, 1);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+  cursor: default;
+}
+
+@media only screen and (max-width: 430px) {
+section.module.parallax h1 {
+  padding-top: 250px;
+}
+}
+@media only screen and (max-width: 550px) {
+.slick-prev:before {
+    margin-right: -45px;
+}
+.slick-next:before {
+    margin-left: -45px;
+}
+section.module.parallax {
+  background-position: 65% 100%;
+}
+}

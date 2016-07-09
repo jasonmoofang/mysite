@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>I am Lim Yuen Hoe</title>
+ </head>
+ <body>
+  <section class="module parallax parallax-1">
+    <div class="container">
+      <h1>Sear my Soul with consuming wonder<br />
+      Smoldering scars of Heaven's thunder</h1>
+    </div>
+  <div class="mypic">
+    <img src="./img/twitterme.jpg" />
+  </div>
+  </section>
+  <section class="module content">
+    <div class="container">
+      <h1>I am <u>Lim</u> Yuen Hoe (林元豪)</h1>
+      <p>You can call me Jason</p>
+    </div>
+  </section>
+  <div class="slidercontainer">
+  <div class="slider">
+    <div>
+      <table width="100%">
+      <tr>
+        <td class="header-cell" onclick="go_prev();">
+        Links
+        </td>
+        <td class="header-cell main">
+        About me
+        </td>
+        <td class="header-cell" onclick="go_next();">
+        Contact
+        </td>
+      </tr>
+      </table>
+      <h2>Quick Bio</h2>
+      <p>Programmer, <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a> advocate,
+        Quasi-<a href="http://en.wikipedia.org/wiki/Otaku#In_English">otaku</a>, <a href="http://kde.org">KDE</a> supporting member.</p>
+      <p>I'm a Malaysian national, ethnically Chinese, and I'm normally found hanging about KL or in Singapore - and occassionally Tokyo.
+      I also commonly go by online handles "moofang" and "Jasonmoofang".</p>
+      <h2>Professionally</h2>
+      <p>My primary competency is as a Web Engineer. I am Co-Founder and CTO of <a href="https://momocentral.com?r=yhcom">MomoCentral.com</a>,
+      where we're working on transforming the face of tech contractual work.</p>
+      <p>I also have a minor background in networking research, and a brief but wonderful history of
+      <a href="https://www.openhub.net/accounts/yuenhoe">working</a> on
+      <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">Free Software</a>.</p>
+      <h2>Interests</h2>
+      <p>I am a fan of <a href="https://en.wikipedia.org/wiki/Anime">Anime</a>,
+      as well as competitive computer games like <a href="http://teamliquid.net">Starcraft 2</a> and
+      <a href="http://liquiddota.com">Dota 2</a>. I relish reading, and read frequently on interests such as - aside
+      from coding and computers: Theoretical Physics, Philosophy, Religion, and Poetry.</p>
+      <p>I also enjoy hiking in cool weather and make frequent trips to Tokyo in order to escape the sweltering tropics.</p>
+      <p class="quote">"For poetry too is a little incarnation, giving body to what had been before invisible and inaudible." - CS Lewis</p>
+    </div>
+    <div>
+      <table width="100%">
+      <tr>
+        <td class="header-cell" onclick="go_prev();">
+        About
+        </td>
+        <td class="header-cell main">
+        Contact
+        </td>
+        <td class="header-cell" onclick="go_next();">
+        Links
+        </td>
+      </tr>
+      </table>
+      <p>Emailling is recommended. You may contact me at</p>
+      <p><img src="http://i302.photobucket.com/albums/nn91/yuenhoe/email.png" /></p>
+      <p>For work/company related correspondence, you may drop us a line at <a href="https://momocentral.com/?r=yhcom2">MomoCentral.com</a>
+      and it's pretty much guaranteed to reach me as well.</p>
+    </div>
+    <div>
+      <table width="100%">
+      <tr>
+        <td class="header-cell" onclick="go_prev();">
+        Contact
+        </td>
+        <td class="header-cell main">
+        Links
+        </td>
+        <td class="header-cell" onclick="go_next();">
+        About
+        </td>
+      </tr>
+      </table>
+      <h2>Blog</h2>
+      <p><a href="./blog">Between Linux and Anime</a> - my permanently semi-defunct blog</a></p>
+      <h2>Social Media</h2>
+      <p><a href="https://twitter.com/jasonmoofang"><img class="snsicon" src="./img/Twitter.png" /> Twitter</a></p>
+      <p><a href="https://www.facebook.com/lim.hoe.3"><img class="snsicon" src="./img/Facebook.png" /> Facebook</a></p>
+      <p><a href="https://github.com/jasonmoofang"><img class="snsicon" src="./img/Github.png" /> Github</a></p>
+      <p><a href="https://sg.linkedin.com/in/yuen-hoe-lim-62230923"><img class="snsicon" src="./img/Linkedin.png" /> Linkedin</a></p>
+      <p><a href="https://plus.google.com/u/0/113796012946915949059/posts"><img class="snsicon" src="./img/Google+.png" /> Google+</a></p>
+      <h2>Misc</h2>
+      <p><a href="https://momocentral.com/?r=yhcom">MomoCentral.com</a> - my company: better tech freelancing, less pain</p>
+      <p><a href="https://www.openhub.net/accounts/yuenhoe">My Openhub</a> - brief summary of my FOSS code contributions</p>
+      
+    </div>
+  </div>
+  </div>
+  <p class="footertext">Designed by me, (C) 2016</p>
+  <div class="footer"></div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+      });
+      window.scroll(0, 150);
+    });
+
+    function go_next() {
+      $('.slider').slick('slickNext');
+    }
+    function go_prev() {
+      $('.slider').slick('slickPrev');
+    }
+  </script>
+ </body>
+</html>
