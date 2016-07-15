@@ -21,7 +21,7 @@ body a {
     max-width: 500px;
     /*min-height: 750px;*/
     border-radius: 6px;
-    box-shadow: 0 4px 6px rgba(0,100,150,.1);
+    box-shadow: 0 4px 6px rgba(0,100,150,.2);
     margin: 0 auto;
     margin-top: -20px;
     background-color: #fff;
@@ -41,13 +41,12 @@ section.module.content h1 {
 }
 section.module.parallax {
   height: 500px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  margin: -10px;
-  margin-top: -100px;
+  background-size: auto 500px;
+  margin: 0px;
+  margin-top: 0px;
   margin-bottom: 50px;
+  box-shadow: inset 0px -15px 55px -7px #000000;
 }
 section.module.parallax h1 {
   padding: 20px;
@@ -127,7 +126,23 @@ section.module.parallax h1 {
 .slick-next:before {
     margin-left: -45px;
 }
+}
+@media only screen and (max-width: 1200px) {
 section.module.parallax {
-  background-position: 65% 100%;
+  background-position: 65% 0%;
+}
+}
+@media only screen and (min-width: 1450px) {
+section.module.parallax {
+  height: 602px;
+  background-size: auto 602px;
+}
+section.module.parallax h1 {
+  padding-top: 400px;
+}
+}
+@media only screen and (min-width: 1450px) {
+section.module.parallax {
+  background-size: 100%;
 }
 }
