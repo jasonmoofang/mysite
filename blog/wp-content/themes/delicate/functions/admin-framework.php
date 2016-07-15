@@ -98,7 +98,7 @@ function t_get_logo ($before = '', $after = '', $t_logo ='', $link = true) {
 	} else {
     $output .= $before; 
     if($link == true) {
-    $output .= '<a href="'. home_url() .'"><img src="'. $t_custom_logo .'" border="0" class="png" alt="'. get_bloginfo('name') .'" /></a>';
+    $output .= '<a href="'. home_url() .'"><img src="'. str_replace('http:', '', $t_custom_logo) .'" border="0" class="png" alt="'. get_bloginfo('name') .'" /></a>';
     } else {
       $output .= '<img src="'. $t_custom_logo .'" border="0" class="png" alt="'. get_bloginfo('name') .'" />';
     }

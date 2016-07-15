@@ -28,7 +28,7 @@ $t_show_post = t_get_option ("t_show_post");
     <div style="height:150px; overflow:hidden; padding:10px; border-left:2px solid rgb(199, 193, 190)">
     <h2 class="blocktitle"><em>Recommended Reading</em></h2>
     <br />
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
     <script>
     var curslide = 1;
     var maxslide = 4;
@@ -77,15 +77,15 @@ $t_show_post = t_get_option ("t_show_post");
         <td width="0px">
           <img src="/blog_images/clannad2.jpg" class="framed" width="80px" height="45px" />
         </td>
-        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></td>
+        <td width="33%" style="padding:5px"><a href="//yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></td>
         <td width="0px">
           <img src="/blog_images/reaching.jpg" class="framed" width="80px" height="45px" />
         </td>
-        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></td>
+        <td width="33%" style="padding:5px"><a href="//yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></td>
         <td width="0px">
           <img src="/blog_images/asukasama.png" class="framed" width="80px" height="45px" />
         </td>
-        <td width="33%" style="padding:5px"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
+        <td width="33%" style="padding:5px"><a href="//yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></td>
       </tr>
       </table>
     </div>
@@ -96,7 +96,7 @@ $t_show_post = t_get_option ("t_show_post");
           <img src="/blog_images/clannad2.jpg" class="framed" width="160px" height="90px" />
         </td>
         <td>
-          <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></p>
+          <p class="reco_title"><a href="//yuenhoe.com/blog/2012/07/clannad-people-and-a-philosophy-of-doing/">Clannad, People and a Philosophy of Doing</a></p>
           <p class="reco_excerpt"><em> " ... The ability to help isn’t a privilege that you guard carefully and execute selectively, it is a means of connecting with humanity and building your life that should be used as often as possible ... "</em></p>
           <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
         </td>
@@ -110,7 +110,7 @@ $t_show_post = t_get_option ("t_show_post");
           <img src="/blog_images/reaching.jpg" class="framed" width="160px" height="90px" />
         </td>
         <td>
-          <p class="reco_title"><a href="http://yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></p>
+          <p class="reco_title"><a href="//yuenhoe.com/blog/2012/10/living-on-kara-no-kyoukai-04/">Living On - Kara no Kyoukai 04</a></p>
           <p class="reco_excerpt"><em> " ... if you needed a reason to go on living at all, it is that death is so much worse, so much more meaningless, and so much more terrifying ... "</em></p>
           <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
         </td>
@@ -124,7 +124,7 @@ $t_show_post = t_get_option ("t_show_post");
           <img src="/blog_images/asukasama.png" class="framed" width="160px" height="90px" />
         </td>
         <td>
-          <p class="reco_title"><a href="http://yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></p>
+          <p class="reco_title"><a href="//yuenhoe.com/blog/2011/10/evangelion-2-0-the-evafags-monsterpost/">Evangelion 2.0 - the evafag's monsterpost</a></p>
           <p class="reco_excerpt"><em> " ... [human] connection inevitably involves exposing oneself to harm and hurt. But if you back out due to it you’re going to lose to rejection, and nothing will change ... "</em></p>
           <p class="reco_next"><a href="#" onclick="reco_gonext(); return false;">&gt;&gt;</a></p>
         </td>

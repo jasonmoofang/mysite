@@ -26,8 +26,8 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <!-- Feed link -->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<link rel="openid.server" href="http://yuenhoe.wordpress.com/?openidserver=1" />
-<link rel="openid.delegate" href="http://yuenhoe.wordpress.com/" />
+<link rel="openid.server" href="//yuenhoe.wordpress.com/?openidserver=1" />
+<link rel="openid.delegate" href="//yuenhoe.wordpress.com/" />
 
 <!-- jQuery utilities -->
 <script type="text/javascript">var themePath = '<?php echo get_template_directory_uri(); ?>/'; // for js functions </script>
@@ -85,19 +85,19 @@ wp_enqueue_script("jquery"); if (is_singular() && get_option('thread_comments'))
 <!--       <?php natty_show_navigation ('primary', 'natty_show_pagemenu'); ?> -->
 <ul class="topnav fl fr sf-js-enabled sf-shadow" id="nav-ie">
 <li class="page_item"><strong>
- <a href="http://yuenhoe.com/blog/tag/tech"><span>Tech</span></a></strong>
+ <a href="//yuenhoe.com/blog/tag/tech"><span>Tech</span></a></strong>
 </li>
 <li class="page_item"><strong>
- <a href="http://yuenhoe.com/blog/tag/dev"><span>Dev</span></a></strong>
+ <a href="//yuenhoe.com/blog/tag/dev"><span>Dev</span></a></strong>
 </li>
 <li class="page_item"><strong>
- <a href="http://yuenhoe.com/blog/tag/otaku"><span>Otaku</span></a></strong>
+ <a href="//yuenhoe.com/blog/tag/otaku"><span>Otaku</span></a></strong>
 </li>
 <!-- <li class="page_item"><strong>
- <a href="http://yuenhoe.com/blog/tag/rants"><span>Rants</span></a></strong>
+ <a href="//yuenhoe.com/blog/tag/rants"><span>Rants</span></a></strong>
 </li> -->
 <li class="current_page_item"><strong>
- <a href="http://yuenhoe.com/blog/the-about-stuff/"><span>About</span></a></strong>
+ <a href="//yuenhoe.com/blog/the-about-stuff/"><span>About</span></a></strong>
 </li>
 </ul>
     </div>                
